@@ -38,3 +38,19 @@ def get_user_choice():
         if user_input in choices:
             return user_input
         return("Invalid choice. Please try again.")
+    
+#Code for replay option#
+
+def main():
+    print("Welcome to Finger Fury!")
+    while True:
+      user = get_user_choice()
+      computer = get_computer_choice()
+      print(f"You chose {user},computer chose {computer}")
+      result = determine_winner(user, computer)
+      print(result)
+
+      again = input("Play again? (y/n):").lower()
+      if again !='y':
+          print("Thanks for playing!")
+          break
