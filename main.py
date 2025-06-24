@@ -29,3 +29,12 @@ def determine_winner(user, computer):
         print(f"You chose {user}, computer chose {computer}")
         result = determine_winner(user, computer)
         print(result)
+
+
+def get_user_choice():
+    choices = ["rock", "paper", "scissors"]
+    while True:
+        user_input = input("Choose Rock, Paper, or Scissors: ").lower()
+        if user_input in choices:
+            return user_input
+        return("Invalid choice. Please try again.")
