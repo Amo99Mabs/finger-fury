@@ -1,5 +1,5 @@
 def main():
-    print("Welcome to Rock Paper Scissors!")
+    print("Welcome to Finger Fury!")
 
 if __name__ == "__main__":
     main()
@@ -22,7 +22,7 @@ def determine_winner(user, computer):
     else:
         return "You lose!"
 
-    def main():
+def main():
         print("Welcome to Finger Fury!")
         user = get_user_choice()
         computer = get_computer_choice()
