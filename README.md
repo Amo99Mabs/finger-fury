@@ -1,4 +1,4 @@
-# Finger Fury Game 🎮
+# Finger Fury 🎮
 
 A simple Python implementation of the classic Rock Paper Scissors game. Battle the computer, test your luck, and play as many rounds as you like!
 
